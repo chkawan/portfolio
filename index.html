@@ -26,30 +26,7 @@
   <script src="https://unpkg.com/scrollreveal"></script>
   <title>Portfólio - Christopher Kawan</title>
 
-  <script>
-    function hoverChangeDescription(description) {
-      const descriptionElement = document.getElementById("description");
-      descriptionElement.innerText = description;
-    }
-
-    // function resetDescription() {
-    //     const descriptionElement = document.getElementById("description");
-    //     descriptionElement.innerText = "*passe o cursor do mouse no card para ler*";
-    // }
-    document.addEventListener('DOMContentLoaded', function () {
-      // Inicialize o ScrollReveal
-      const sr = ScrollReveal();
-
-      // Adicione a configuração para os elementos que você deseja revelar
-      sr.reveal('.delaySmallReveal', { delay: 300, origin: 'bottom', distance: '20px' });
-      sr.reveal('.delayMediumReveal', { delay: 500, origin: 'bottom', distance: '20px' });
-      sr.reveal('.delayLargeReveal', { delay: 700, origin: 'bottom', distance: '20px' });
-      sr.reveal('.delayExtraBigReveal', { delay: 900, origin: 'bottom', distance: '20px' });
-      sr.reveal('.typewriter', { delay: 300, origin: 'bottom', distance: '20px' });
-      sr.reveal('.intervalCardReveal', { interval: 200, origin: 'bottom', distance: '20px' });
-    });
-
-  </script>
+  
 
 </head>
 
@@ -62,16 +39,15 @@
           <div class="line1"></div>
           <div class="line2"></div>
           <div class="line3"></div>
-          <div class="line4"></div>
-          <div class="line5"></div>
         </div>
 
         <ul class="nav-list">
           <li><a href="#s-home">Inicio</a></li>
           <li><a href="#s-about">Sobre</a></li>
           <li><a href="#s-projects">Projetos</a></li>
-          <li><a href="#s-services">Serivços</a></li>
           <li><a href="#s-skills">Conhecimentos</a></li>
+          <li><a href="#s-services">Serivços</a></li>
+          <li><a href="https://wa.me/qr/44YKCBLXKEXYP1">Contratar</a></li>
         </ul>
       </nav>
     </div>
@@ -136,6 +112,11 @@
                   <li>
                     <img src="./assets/icons/github.svg" alt="Ícone do GitHub"/>
                   </li>
+                  <a href="https://linktr.ee/ch_kawan" rel="noopener" target="_blank">
+                    <li>
+                      <img src="./assets/icons/laptop.svg" alt="Ícone do Laptop"/>
+                    </li>
+                  </a>
                 </a>
               </ul>
             </nav>
@@ -165,7 +146,7 @@
           <div class="text-experience intervalCardReveal">
             <div>
               <h4 class="titleExperience">
-                Estagio - Backend
+                Estágio - Backend
               </h4>
               <p class="dateExperience">Mar 2022 - Nov 2022 (9 meses)</p>
             </div>
@@ -214,43 +195,7 @@
       </div>
     </section>
 
-    <section id="s-services">
-      <div class="grid-layout">
-        <h2 class="delaySmallReveal">Serviços <span>.</span></h2>
-        <div id="services">
-          <article class="intervalCardReveal">
-            <div>
-              <img src="assets/icons/desenvolvimento.png" width="100px" height="100px" alt="ícone código" />
-            </div>
-            <h3>Desenvolvimento</h3>
-            <p>
-              Desenvolvimento e integração de sistemas.
-            </p>
-          </article>
-          <article class="intervalCardReveal">
-            <div>
-              <img src="assets/icons/dados.png" width="100px" height="100px" alt="ícone layers" />
-            </div>
-            <h3>Banco de Dados</h3>
-            <p>
-              Implementação e administração de bancos de dados.
-            </p>
-          </article>
-          <article class="intervalCardReveal">
-            <div>
-              <img src="assets/icons/analise.png" width="100px" height="100px" alt="ícone imagem" />
-            </div>
-            <h3>Analise</h3>
-            <p>
-              Analise e manutenção de sites e sistemas.
-            </p>
-          </article>
-          
-        </div>
-        <a href="https://github.com/chkawan?tab=repositories" rel="noopener" target="_blank"
-          class="delayExtraBigReveal">Repositórios no GitHub</a>
-      </div>
-    </section>
+    
 
     <section id="s-skills">
       <div class="grid-layout">
@@ -313,13 +258,53 @@
     </div>
     </section>
 
-    <footer>
-
+    <section id="s-services">
+      <div class="grid-layout">
+        <h2 class="delaySmallReveal">Serviços <span>.</span></h2>
+        <div id="services">
+          <article class="intervalCardReveal">
+            <div>
+              <img src="assets/icons/desenvolvimento.png" width="100px" height="100px" alt="ícone código" />
+            </div>
+            <h3>Desenvolvimento</h3>
+            <p>
+              Desenvolvimento e integração de sistemas.
+            </p>
+          </article>
+          <article class="intervalCardReveal">
+            <div>
+              <img src="assets/icons/dados.png" width="100px" height="100px" alt="ícone layers" />
+            </div>
+            <h3>Banco de Dados</h3>
+            <p>
+              Implementação e administração de bancos de dados.
+            </p>
+          </article>
+          <article class="intervalCardReveal">
+            <div>
+              <img src="assets/icons/analise.png" width="100px" height="100px" alt="ícone imagem" />
+            </div>
+            <h3>Analise</h3>
+            <p>
+              Analise e manutenção de sites e sistemas.
+            </p>
+          </article>          
+        </div>
+        
+      </div>
+    </section>
+    <footer class="footer">
+      
     </footer>
   </main>
 
-  <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
-  <!-- <script type="module" src="assets/js/main.js"></script> -->
+<script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/menu.js"></script>
+<script>
+  menu();
+</script>
+
 </body>
 
 </html>
