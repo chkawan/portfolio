@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Chrsitopher" />
+  <meta name="description" content="Meu nome é Christopher, trabalho no desenvolvimento de software." />
+  <meta name="keywords"
+    content="sites, web, desenvolvimento, backend, christopher kawan, ch_kawan, programador, back-end, software, freelancer, freela, website, portfólio" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#986DFF" />
+  <meta name="copyright" content="Chrsitpher Kawan" />
+  <meta http-equiv="content-language" content="pt-br" />
+
+  <meta property="og:title" content="Portfólio - Chrsitopher" />
+  <meta property="og:description" content="Portfólio - Christopher" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="shortcut icon" href="assets/icons/logo.png" type="image/x-icon" />
+  <link rel="icon" href="assets/icons/logo.png" />
+  <link rel="apple-touch-icon" href="assets/icons/logo.png" />
+  <link rel="canonical" href="https://ch_kawan.com/" />
+  <!-- <script src="https://unpkg.com/svg-inject@4.0.9/dist/svg-inject.min.js"></script> -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <title>Portfólio - Christopher Kawan</title>
+
+  <script>
+    function hoverChangeDescription(description) {
+      const descriptionElement = document.getElementById("description");
+      descriptionElement.innerText = description;
+    }
+
+    // function resetDescription() {
+    //     const descriptionElement = document.getElementById("description");
+    //     descriptionElement.innerText = "*passe o cursor do mouse no card para ler*";
+    // }
+    document.addEventListener('DOMContentLoaded', function () {
+      // Inicialize o ScrollReveal
+      const sr = ScrollReveal();
+
+      // Adicione a configuração para os elementos que você deseja revelar
+      sr.reveal('.delaySmallReveal', { delay: 300, origin: 'bottom', distance: '20px' });
+      sr.reveal('.delayMediumReveal', { delay: 500, origin: 'bottom', distance: '20px' });
+      sr.reveal('.delayLargeReveal', { delay: 700, origin: 'bottom', distance: '20px' });
+      sr.reveal('.delayExtraBigReveal', { delay: 900, origin: 'bottom', distance: '20px' });
+      sr.reveal('.typewriter', { delay: 300, origin: 'bottom', distance: '20px' });
+      sr.reveal('.intervalCardReveal', { interval: 200, origin: 'bottom', distance: '20px' });
+    });
+
+  </script>
+
+</head>
+
+<body>
+  <header>
+    <div class="grid-layout">
+      <nav>
+        <img class="logo-ch" src="assets/icons/logo.png" alt="ch_kawan" width="150px" height="25px" />
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+          <div class="line4"></div>
+          <div class="line5"></div>
+        </div>
+
+        <ul class="nav-list">
+          <li><a href="#s-home">Inicio</a></li>
+          <li><a href="#s-about">Sobre</a></li>
+          <li><a href="#s-projects">Projetos</a></li>
+          <li><a href="#s-services">Serivços</a></li>
+          <li><a href="#s-skills">Conhecimentos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="s-home">
+      <div class="grid-layout">
+        <div id="home">
+          <div id="home-container-text">
+
+            <h1 class="delayMediumReveal">
+              Potencializando o progresso empresarial através do desenvolvimento backend de<span> alto calibre
+              </span> criando infraestruturas digitais inovadoras e escaláveis.
+            </h1>
+            <p class="typewriter">
+              Elevando o desempenho e a eficácia, posicionando-as na vanguarda da tecnologia.
+            </p>
+          </div>
+
+          <img class="imagemlogo delayMediumReveal" src="assets/image/logo4.jpg" alt="ìcone" id="logo" width="500px"
+            height="500px" />
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="s-about">
+      <div class="grid-layout">
+        <div>
+          <div id="creator-photo" class="delayMediumReveal">
+            <h3 class="delayExtraBigReveal">Criador de Sistemas</h3>
+          </div>
+          <div>
+            <h4 class="delayMediumReveal">Quem sou</h4>
+            <h2 class="delaySmallReveal">Christpoher Kawan</h2>
+            <h3 class="delayMediumReveal">
+              Backend Developer & Software Engineer
+            </h3>
+
+            <p class="delayLargeReveal">
+              Meu nome é Christopher Kawan,
+              sou o desenvolvedor software. Atualmente sou freelancer como Backend Developer.
+              Desenvolvo sistemas backend modernos e de alta qualidade, com foco em desempenho, otimização, segurança e
+              integrações.
+            </p>
+            <nav class="delayLargeReveal">
+              <ul>
+                <a href="https://www.instagram.com/ch_kawan/" rel="noopener" target="_blank">
+                  <li>
+                    <img src="./assets/icons/instagram.svg" alt="Ícone do Instagram"  />
+                  </li>
+                </a>
+
+                <a href="https://www.linkedin.com/in/ch-kawan/" rel="noopener" target="_blank">
+                  <li>
+                    <img src="./assets/icons/linkedin.svg" alt="Ícone do linkedin"/>
+                  </li>
+                </a>
+                <a href="https://github.com/chkawan" rel="noopener" target="_blank">
+                  <li>
+                    <img src="./assets/icons/github.svg" alt="Ícone do GitHub"/>
+                  </li>
+                </a>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="s-experience">
+      <div class="grid-layout">
+        <h2 class="delaySmallReveal">Experiências <span>.</span></h2>
+        <div id="experience">
+          <div class="option-experience intervalCardReveal" id="experience-company">
+            <div class="company AMAN activeExperience">
+              <h3>AMAN</h3>
+            </div>
+            <div class="company2">
+              <h3></h3>
+            </div>
+            <div class="company2">
+              <h3></h3>
+            </div>
+            <div class="company2">
+              <h3></h3>
+            </div>
+          </div>
+          <div class="text-experience intervalCardReveal">
+            <div>
+              <h4 class="titleExperience">
+                Estagio - Backend
+              </h4>
+              <p class="dateExperience">Mar 2022 - Nov 2022 (9 meses)</p>
+            </div>
+            <h5 class="companyExperience">AMAN</h5>
+            <p class="changeExperience">
+              Trabalhei como Estagiario Backend na Academia Militar das Agulhas Negras, o trabalho consistia em criar um
+              sistema
+              para contrar a entrada e saida de visistantes nas instituição. Onde me capacitou-me em JS e PHP, incluindo
+              bibliotecas
+              como Bootstrap e DataTables.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="s-projects">
+      <div class="grid-layout">
+        <h2 class="delaySmallReveal">Projetos <span>.</span></h2>
+        <div id="projects">
+          <article class="intervalCardReveal teslabank">
+            <h3>Controle de Visitantes</h3>
+            <p>
+              Sistema para controlar a entrada e saída de visitantes.
+            </p>
+
+            <a href="#" rel="noopener" target="_blank" id="teslabank">Visualizar projeto
+            </a>
+          </article>
+
+          <article class="intervalCardReveal none">
+            <h3>Em construção...</h3>
+            <p>
+              Pegue o café e espere um pouco, estou desenvolvendo o projeto.
+            </p>
+          </article>
+          <article class="intervalCardReveal none">
+            <h3>Em construção...</h3>
+            <p>
+              Pegue o café e espere um pouco, estou desenvolvendo o projeto.
+            </p>
+          </article>
+        </div>
+        <a href="https://github.com/chkawan?tab=repositories" rel="noopener" target="_blank"
+          class="delayExtraBigReveal">Repositórios no GitHub</a>
+      </div>
+    </section>
+
+    <section id="s-services">
+      <div class="grid-layout">
+        <h2 class="delaySmallReveal">Serviços <span>.</span></h2>
+        <div id="services">
+          <article class="intervalCardReveal">
+            <div>
+              <img src="assets/icons/desenvolvimento.png" width="100px" height="100px" alt="ícone código" />
+            </div>
+            <h3>Desenvolvimento</h3>
+            <p>
+              Desenvolvimento e integração de sistemas.
+            </p>
+          </article>
+          <article class="intervalCardReveal">
+            <div>
+              <img src="assets/icons/dados.png" width="100px" height="100px" alt="ícone layers" />
+            </div>
+            <h3>Banco de Dados</h3>
+            <p>
+              Implementação e administração de bancos de dados.
+            </p>
+          </article>
+          <article class="intervalCardReveal">
+            <div>
+              <img src="assets/icons/analise.png" width="100px" height="100px" alt="ícone imagem" />
+            </div>
+            <h3>Analise</h3>
+            <p>
+              Analise e manutenção de sites e sistemas.
+            </p>
+          </article>
+          
+        </div>
+        <a href="https://github.com/chkawan?tab=repositories" rel="noopener" target="_blank"
+          class="delayExtraBigReveal">Repositórios no GitHub</a>
+      </div>
+    </section>
+
+    <section id="s-skills">
+      <div class="grid-layout">
+        <div id="skills">
+          <article id="skills-text">
+            <h2 class="delaySmallReveal">Conhecimentos <span>.</span></h2>
+            <p id="description" class="delayMediumReveal changeDescription">
+              *passe o cursor do mouse no card para ler*
+            </p>
+          </article>
+
+          <div id="skills-cards">
+            <article class="html intervalCardReveal"
+              onmouseover="hoverChangeDescription('HTML é uma linguagem de marcação, onde marcamos os elementos para definir quais informações a página vai exibir.')"
+              >
+              <img src="assets/icons/html.svg" width="60px" height="60px" alt="ícone do html" />
+            </article>
+            <article class="bootstrap intervalCardReveal"
+              onmouseover="hoverChangeDescription('Bootstrap é um framework de design front-end que simplifica o desenvolvimento de interfaces web responsivas e esteticamente atraentes.')"
+              >
+              <img src="assets/icons/bootstrap.svg" width="60px" height="60px" alt="ícone do bootstrap" />
+            </article>
+            <article class="css intervalCardReveal"
+              onmouseover="hoverChangeDescription('CSS é uma linguagem de folha de estilo composta por “camadas”, criado com o propósito de estilizar as páginas.')"
+              >
+              <img src="assets/icons/css.svg" width="60px" height="60px" alt="ícone do css" />
+            </article>
+            <article class="sass intervalCardReveal"
+              onmouseover="hoverChangeDescription('Sass é um pré-processador CSS que adiciona alguns recursos que não estão disponíveis de forma nativa.')"
+              >
+              <img src="assets/icons/sass.svg" width="60px" height="60px" alt="ícone do sass" />
+            </article>
+            <article class="js intervalCardReveal"
+              onmouseover="hoverChangeDescription('JavaScript é uma linguagem de programação que permite a você implementar elementos dinâmicos em páginas web..')"
+              >
+              <img src="assets/icons/javascript.svg" width="60px" height="60px" alt="ícone do js" />
+            </article>
+            <article class="php intervalCardReveal"
+              onmouseover="hoverChangeDescription('PHP é uma linguagem de script do lado do servidor projetada para desenvolvimento web.')"
+             >
+              <img src="assets/icons/php.svg" width="60px" height="60px" alt="ícone do php" />
+            </article>
+            <article class="py intervalCardReveal"
+              onmouseover="hoverChangeDescription('Python é uma linguagem de programação de alto nível, versátil e fácil de aprender. Amplamente utilizada para desenvolvimento de software, automação, análise de dados e IA.')"
+             >
+              <img src="assets/icons/python.svg" width="60px" height="60px" alt="ícone do styled" />
+            </article>
+            <article class="mysql intervalCardReveal"
+              onmouseover="hoverChangeDescription('MySQL é um sistema de gerenciamento de banco de dados relacional de código aberto, amplamente utilizado para armazenar e recuperar dados.')"
+            >
+              <img src="assets/icons/mysql.svg" width="60px" height="60px" alt="ícone do mysql" />
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    </div>
+    </div>
+    </div>
+    </section>
+
+    <footer>
+
+    </footer>
+  </main>
+
+  <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+  <!-- <script type="module" src="assets/js/main.js"></script> -->
+</body>
+
+</html>
