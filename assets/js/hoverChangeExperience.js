@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function() {
         );}
       else if (this.id === "company-procurando") {
         setExperienceDetails(
-          "Porcurando...",
+          "Procurando...",
           "novas oportunidades",
           "",
           `Estou em busca de novas oportunidades de emprego na área de back-end, focado em análise de dados e desenvolvimento de sistemas. Como profissional júnior, estou ansioso para aplicar e expandir meus conhecimentos em um ambiente dinâmico e colaborativo.`
