@@ -20,7 +20,10 @@
       @include responsive-desktop {
         flex-wrap: wrap;
       }
-
+      .company2{
+        color:$color-gray;
+        cursor: pointer;
+      }
       .option-experience {
         display: flex;
         width: 25%;

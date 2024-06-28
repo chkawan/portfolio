@@ -59,6 +59,19 @@
           margin: 40px 0px;
           font-weight: 300;
           line-height: 160%;
+          .typewriter {
+            font-family: monospace;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: .15em solid black;
+            animation: caret 1s steps(1) infinite;
+          }
+      
+          @keyframes caret {
+            50% {
+              border-color: transparent;
+            }
+          }
         }
 
         a {
@@ -89,7 +102,7 @@
         right: -50px;
         top: 50%;
         transform: translate(0%, -50%);
-
+        border-radius: 20px;
         @include responsive-desktop {
           display: none;
         }
